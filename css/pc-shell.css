@@ -1,0 +1,37 @@
+/* plain */
+
+body {line-height: 1.15em}
+table {}
+img {max-width: 55em}
+a {text-decoration: none}
+pre {margin: 0.5em 0em}
+pre {padding: 0.5em 0.75em}
+pre {border: 0px dotted #666} /* 1px */
+hr {height: 0px}
+hr {border: 0 none}
+hr {border-top: 1px dotted #000}
+
+/* pandoc */
+
+div.figure p.caption {margin: 0 0 0 2em;font-size: 75%}
+
+/* shell */
+
+input#cmd {text-transform:none}
+input#cmd {border: none}
+input#cmd {width: 50em;size: 50}
+input#cmd:focus {outline: none}
+div.h_cmd {font-weight: bold}
+div.shell-load {padding: 1em 0}
+img.cat {padding: 1em 0}
+
+/* autocomplete */
+
+ul.ui-menu, li.ui-menu-item {display: none}
+.ui-helper-hidden, .ui-helper-hidden-accessible {display: none}
+
+/*
+ul.ui-menu, li.ui-menu-item {display: inline}
+ul.ui-menu {-webkit-padding-start: 0px !important}
+li.ui-menu-item::after {content: " ; "}
+*/

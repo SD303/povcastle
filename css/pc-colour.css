@@ -1,0 +1,44 @@
+/*
+ colours:
+
+ #c60 = dark orange, #c06 = medium violet red
+ #6c0 = chartreuse, #0c6 = spring green
+ #06c = dodger blue, #60c = dark violet
+
+ #f00 = red, #0f0 = green, #00f = blue
+ #0ff = cyan, #f0f = magenta, #ff0 = yellow
+
+*/
+
+a {color: #0f0}
+a:visited {color: #ff0}
+a:active {color: #0f0} /* #9f0 */
+a:hover {color: #00f} /* #3ff */
+
+.blk_1 {background-color: white} /* #c60 */
+.blk_2 {background-color: white} /* #6c0 */
+.blk_3 {background-color: white} /* #c06 */
+.blk_4 {background-color: white} /* #06c */
+.blk_5 {background-color: white} /* #0c6 */
+.blk_6 {background-color: white} /* #60c */
+
+.blk_1 .sh_control:hover {color: white}
+.blk_2 .sh_control:hover {color: white}
+.blk_3 .sh_control:hover {color: white}
+.blk_4 .sh_control:hover {color: white}
+.blk_5 .sh_control:hover {color: white}
+.blk_6 .sh_control:hover {color: white}
+
+.nil .sh_control:active {color: #pink} /* #9f0 */
+.nil .sh_control:hover {color: #pink} /* #3ff */
+
+/* shell */
+
+input {background-color: white}
+code {color: white}
+pre {background-color: white}
+pre code {color: white}
+
+/* menu */
+
+select {background-color: white} /* #ccc */

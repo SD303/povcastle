@@ -1,0 +1,21 @@
+/* @ */
+
+@media screen {body {margin: 5em}}
+@media all and (max-width: 800px) {body {margin: 1em}}
+
+/* plain */
+
+body {max-width: 70em}
+h1 {font-size: 2em}
+h1 {text-transform: uppercase}
+h1 a {text-decoration: none}
+ul li {list-style-type: none}
+
+/* class */
+
+.w_img > li {display: inline}
+.w_img img {padding: 0px 5px 0px 0px}
+
+.w_img,.w_meta,.w_doc,.w_url           {list-style-type: none}
+.w_img,.w_meta,.w_doc,.w_url,.doc_text {margin: 10px 0px; padding: 5px 10px}
+       .w_meta,.w_doc,.w_url,.doc_text {border: 0px solid #000} /* 1px */

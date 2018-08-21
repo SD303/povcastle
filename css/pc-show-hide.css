@@ -1,0 +1,9 @@
+/* show/hide */
+
+.sh_control {text-decoration: underline}
+.sh_control {cursor: pointer}
+
+.sh_control:hover {text-decoration: overline}
+.sh_control:active {text-decoration: overline}
+
+.sh_content {display: none}

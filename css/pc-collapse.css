@@ -1,0 +1,35 @@
+/* plain */
+
+body {line-height: 1.75em}
+strong {font-weight: normal}
+strong {text-decoration: underline}
+ul li {list-style-type: none}
+
+/* classes */
+
+.sh_content {visibility: hidden} /* for animation */
+
+.collapse > li {display: inline}
+.c_db > li {display: inline}
+
+.sh_ln {display: inline;padding: 0 1em 0 0}
+
+.blk_2, .blk_3, .blk_4, .blk_5 {border: 0px none;margin: 5px;padding: 5px}
+
+/* animation... */
+
+.c_db {
+    -webkit-transition: opacity 6500ms, visibility 6500ms;
+            transition: opacity 6500ms, visibility 6500ms;
+}
+
+@keyframes fade {0% {opacity: 50} 100% {opacity: 10}}
+
+/*original*/
+
+/* .c_db {
+    -webkit-transition: opacity 650ms, visibility 650ms;
+            transition: opacity 650ms, visibility 650ms;
+}
+
+@keyframes fade {0% {opacity: 5} 100% {opacity: 1}} */

@@ -1,0 +1,44 @@
+/* plain */
+
+body {line-height: 1.75em}
+strong {font-weight: normal}
+strong {text-decoration: underline}
+ul li {list-style-type: none}
+ul {padding: 0}
+div {margin: 1em}
+
+/* class */
+
+.w_control {text-decoration: underline}
+.w_control {cursor: pointer}
+
+.w_control:hover {text-decoration: overline}
+.w_control:active {text-decoration: overline}
+
+.w_menu > li {display: inline}
+.w_menu {padding: 0 1em 0 0}
+
+.ev-window {
+    background-color: rgba(250,250,250,0.65);
+    width:60em;
+    height:auto;
+    margin: 5px 0;
+    padding: 5px;
+    border-width:1px 1px 1px 1px;
+    border-color: #000;
+    border-style: solid;
+}
+
+.ev-title {
+    background-color: rgba(200,200,200,0.85);
+    padding: 0 5px;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: right;
+    border-width:1px 1px 1px 1px;
+    border-color: #666;
+    border-style: dotted;
+}
+
+.ev-content {
+}

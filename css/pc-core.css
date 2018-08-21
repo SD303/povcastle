@@ -1,0 +1,42 @@
+/* @ */
+
+@media screen {body {margin: 5em}}
+@media all and (max-width: 800px) {body {margin: 1em}}
+
+/*@font-face {font-family: ev;src: url("../font/MONACO.TTF") format("truetype");}*/
+
+/* plain */
+
+html {}
+body {font-family: SourceCodePro} /* monaco, geneva */
+body {font-size: 1em}
+body {text-transform: none} /* uppercase */
+body {max-width: 65em}
+h1,h2,h3 {font-size: 1em}
+code {font-family: SourceCodePro}
+code {font-size: 1em}
+pre {font-size: 1em}
+blockquote {font-size: 1em}
+em {font-style: normal}
+em {text-decoration: underline}
+ul {/*padding-left: 0*/}
+ul li {list-style-type: square}
+iframe, object {padding: 0px; margin: 0px; border: 0px; overflow: hidden}
+input {font-family: SourceCodePro}
+input {font-size: 1em}
+select {font-family: SourceCodePro}
+select {font-size: 1em}
+
+/* implicit */
+
+a:hover {text-decoration: none}
+a:active {text-decoration: none}
+
+/* class */
+
+.null {display: none}
+.doc_md h1, .doc_md h2 {font-size: 1.0em}
+.doc_md img {max-width: 55em}
+
+/* blk_6 = documents (ie. doc_md, doc_jpg, doc_pdf, doc_mp3, url_video) */
+.blk_6 {margin: 10px 0px 10px 5px;padding: 10px 2px 6px 10px}
